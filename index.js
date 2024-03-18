@@ -4,7 +4,7 @@ const app=express()
 const mongoose=require('mongoose')
 const path=require('path')
 
-mongoose.connect("mongodb+srv://1:1@cluster0.3mvzkz0.mongodb.net/jobapplicationdb?directConnection=true",{}).then(()=>{
+mongoose.connect("mongodb+srv://1:1@cluster0.3mvzkz0.mongodb.net/jobapplicationdb",{}).then(()=>{
         console.log("db connected");
 })
 
