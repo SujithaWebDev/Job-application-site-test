@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.gridlayout{
+    width: 95%;
+    margin: auto;
+    /* background-color: antiquewhite;
+    height: 100vh; */
+}
+/* index page */
+.companyname{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.companyname img{
+    height: 47px;
+}
+.headeroptions{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.headeroptions ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 20px;
+    gap: 100px;
+}
+.headeroptions li:hover{
+    font-weight: 700;
+    font-size: 22px;
+}
+.headeroptions a{
+    color: white;
+    text-decoration: none;
+}
+.headerdiv{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding: 10px 0px;
+}
+.herocontentdiv{
+    display: flex;
+    color: white;
+    margin: 10px 27px;
+    align-items: center;
+}
+.headerandherobg{
+    background-image: url(./indexherobg.jpg);
+    height: 687px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header button,.herocontentleft button,.herocontentleftform button{
+    padding: 5px 18px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 500;
+}
+.herocontentleft button{
+    padding: 10px;
+    width: 120px;
+}
+header button:hover,.herocontentleft button:hover,.herocontentleftform button:hover{
+    background-color: black;
+    color: white;
+}
+.herocontentleft h1{
+    font-size: 60px;
+}
+.herocontentleft p{
+    font-size: 16px;
+    width: 58%;
+    line-height: 2;
+    padding: 32px 0px;
+}
+.herocontentleft{
+    margin: 47px 0px;
+}
+.lifeatdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lifeatright{
+    width: 40%;
+}
+.lifeatdiv h3{
+    font-size: 30px;
+}
+.lifeatright h1{
+    font-size: 53px;
+    padding: 10px 0px;
+}
+#lifeatsection{
+    margin: 90px 0px;
+}
+#industrysection h1{
+    text-align: center;
+    font-size: 49px;
+}
+.herocontentdiv img{
+    height: 561px;
+}
+#industrysection img{
+    margin: 36px auto 100px;
+    display: block;
+}
+.herocontentleftform h1{
+    font-size: 60px;
+}
+.herocontentleftform p{
+    font-size: 16px;
+    line-height: 2;
+    padding: 45px 0px;
+    width: 50%;
+    margin: 0px auto;
+}
+.herocontentleftform{
+    margin: 123px 0px;
+    text-align: center;
+}
+.footercontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.subscribe a{
+    margin-left: -22px;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footercontent{
+    padding: 16px 0px;
+}
+footer .links li{
+    list-style-type: none;
+    color: white;
+    padding-bottom: 10px;
+}
+footer .links li:hover{
+    font-weight: 500;
+}
+.footercontent h2{
+    padding: 20px 0px;
+}
+.footercontent p{
+    padding-bottom: 10px;
+}
+footer h5{
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+.subscribe input{
+    padding: 4px 16px;
+    border-radius: 6px;
+}
+/* form page */
+.headerandherobgform{
+    background-image: url('./formherobg.jpg');
+    height: 687px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.herocontentdivform{
+    color: white;
+}
+.namediv,.mailphonediv{
+    display: flex;
+    gap: 30px;
+}
+.formcontentdiv{
+    width: 44%;
+    margin: 50px auto;
+}
+.formcontentdiv h1{
+    font-size: 50px;
+}
+.formcontentdiv label{
+    font-size: 21px;
+    font-weight: 600;
+}
+.formcontentdiv input{
+    padding: 3px 15px;
+    width: 260px;
+    height: 35px;
+}
+.formcontentdiv #expid{
+    width: 92%;
+}
+.formcontentdiv p{
+    font-size: 22px;
+    padding: 10px 0px;
+}
+form>div{
+    margin: 25px auto;
+}
+.formcontentdiv select{   
+    padding: 5px;
+    width: 97%;
+    height: 38px;
+}
+.relocatediv input{
+    width: 20px;
+    height: 20px;
+}
+.resumediv input{
+    padding: 10px 0px
+}
+.formcontentdiv button{
+    padding: 5px 18px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.formcontentdiv button:hover{
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+
+/* thanks page */
+.thanksdiv{
+    text-align: center;
+    margin: 40px auto;
+}
+.thanksdiv h1{
+    font-size: 30px;
+    padding: 20px;
+}
+.thanksdiv h3{
+    width: 50%;
+    margin: 5px auto 72px;
+    font-weight: 400;
+}
+.backbtn img{
+    width: 33px;
+    margin: 20px auto;
+}
+.thanksdiv button{
+    padding: 5px 18px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.thanksdiv button:hover{
+    border-color: black;
+    background-color: white;
+    color: black;
+    /* padding: 14px 0px; */
+}
+
+@media screen and (max-width:500px){
+    .companyname h1{
+        font-size: 13px;
+    }
+    .companyname img {
+        height: 25px;
+    }
+    .companyname {
+        gap: 8px;
+    }
+    .headeroptions ul {
+        gap: 40px;
+        font-size: 13px;
+        gap: 30px;
+    }
+    .headerdiv {
+        display: block;
+    }
+    .headeroptions {
+        width: 98%;
+        align-items: center;
+        padding: 10px;
+    }
+    .herocontentleft h1 {
+        font-size: 23px;
+    }
+    .herocontentdiv {
+        margin: 10px;
+    }
+    .herocontentdiv img {
+        height: 160px;
+    }
+    .herocontentleft p {
+        font-size: 10px;
+    }
+    .lifeatdiv{
+        flex-direction: column-reverse;
+    }
+    .lifeatright {
+        width: 87%;
+    }
+    .lifeatdiv img{
+        height: 234px;
+    }
+    #industrysection img {
+        height: 74px;
+    }
+    #industrysection h1 {
+        font-size: 35px;
+    }
+    .footercontent {
+        flex-direction: column;
+    }
+    .herocontentleftform h1 {
+        font-size: 31px;
+    }
+    .herocontentleftform p {
+        font-size: 10px;
+    }
+    .formcontentdiv {
+        width: 85%;
+    }
+    .namediv, .mailphonediv {
+        display: block;
+    }
+    .herocontentleftform {
+        margin: 67px 0px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:850px) {
+    .headeroptions {
+        width: 56%;
+    }
+    .headeroptions ul {
+        gap: 34px;
+    }
+    .herocontentleft h1 {
+        font-size: 28px;
+    }
+    .herocontentdiv img {
+        height: 295px;
+    }
+    .lifeatright h1 {
+        font-size: 38px;
+    }
+    .lifeatdiv h3 {
+        font-size: 23px;
+    }
+    .lifeatright p{
+        font-size: 14px;
+    }
+    .footercontent p {
+        font-size: 12px;
+    }
+    .subscribe input {
+        padding: 4px 5px;
+    }
+    .footercontent {
+        padding: 16px 17px;
+    }
+    .formcontentdiv select {
+        width: 101%;
+    }
+    .formcontentdiv #expid {
+        width: 96%;
+    }
+    .formcontentdiv {
+        width: 80%;
+    }
+}
